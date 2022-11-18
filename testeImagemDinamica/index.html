@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinânmica</title>
+</head>
+<body>
+    <h1>Teste de imagem dinâmica</h1>
+
+    <picture>
+        <source media="(max-width: 520px)" srcset="imagens/pequena.jpg" type="image/jpg">
+        <source media="(max-width: 1020px)" srcset="imagens/media.jpg" type="image/jpg">
+        <img src="imagens/grande.jpg" alt="imagem flexivel">
+    </picture>
+</body>
+</html>
